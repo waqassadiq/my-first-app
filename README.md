@@ -46,3 +46,8 @@ Run the below commands - only use "sudo" on Mac/ Linux.
 sudo npm uninstall -g angular-cli @angular/cli
 npm cache clean --force
 sudo npm install -g @angular/cli
+
+# creating a component from cli
+$ ng generate component servers
+or
+$ ng g c server
