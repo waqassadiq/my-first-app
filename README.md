@@ -27,3 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # my-first-app
 # my-first-app
+
+#add the bootstap
+To add the bootstap module local to the project and not globall
+npm install --save bootstrap@3
+
+#s trict mode
+All the code will only work if you are NOT using "strict mode". Strict mode forces you to write more verbose code in some places (especially when it comes to class properties). If you enabled it by accident, you can also disable it by setting 'strict: false' in your tsconfig.json file.
