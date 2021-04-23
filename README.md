@@ -32,5 +32,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To add the bootstap module local to the project and not globall
 npm install --save bootstrap@3
 
-# strict mode
+# git sstrict mode
 All the code will only work if you are NOT using "strict mode". Strict mode forces you to write more verbose code in some places (especially when it comes to class properties). If you enabled it by accident, you can also disable it by setting 'strict: false' in your tsconfig.json file.
+
+# How to use
+Run "npm install" inside this project folder to install all dependencies.
+Make sure you use the latest version of the CLI (upgrade guide below)
+Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
+
+# How to upgrade the CLI
+Run the below commands - only use "sudo" on Mac/ Linux.
+
+sudo npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+sudo npm install -g @angular/cli
